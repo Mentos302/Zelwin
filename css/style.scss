@@ -263,10 +263,9 @@ h6 {
     				left: calc(50% - 7px);
 
     				//display: none
-    				transition: opacity 0.3s ease;
+    				transition: $anim;
     				opacity: 0;
 					visibility: hidden;
-					transform: scale(0);
 				}
 			}	
 
@@ -293,10 +292,9 @@ h6 {
 				overflow-y: auto;
 
 				//display: none;
-				transition: opacity 0.3s ease;
+				transition: $anim;
 				opacity: 0;
 				visibility: hidden;
-				transform: scale(0);
 
 				&::-webkit-scrollbar-thumb {
 				    background-color: rgba(145, 145, 145, 0.2);
@@ -467,14 +465,12 @@ h6 {
 						//display: inline-block;
 						opacity: 1;
 						visibility: visible;
-						transform: scale(1) rotate(-45deg);
 					}
 
 					.header__menu-dropdown-container {
 						//display: grid;
 						opacity: 1;
 						visibility: visible;
-						transform: scale(1);
 					}
 				}
 			}
